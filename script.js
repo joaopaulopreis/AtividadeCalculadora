@@ -11,22 +11,27 @@ switch(opcao){
         resultado = n1 + n2;
         window.alert('Resultado: '+ resultado)
         break;
+    
     case 2:
         resultado = n1 - n2;
         window.alert('Resultado: '+ resultado)
         break;
+        
     case 3:
         resultado = n1 * n2;
         window.alert('Resultado: '+ resultado)
         break;
+    
     case 4:
-        resultado = n1 / n2;
-        window.alert('Resultado: '+ resultado)
-        break;
+            resultado = numero1/ numero2;
+            window.alert('Resultado:' + resultado)
+            break;
+    
     case 5:
-        resultado = Math.pow(n1,n2)
-        window.alert('Resultado: '+ resultado)
-        break;
-    default:
-        window.alert('Opção invalida')
-}
+            resultado = Math.pow(numero1, numero2) ;
+            window.alert('Resultado:' + resultado)
+            break;
+            
+        default:
+            window.alert('Opção inválida!"');
+    }
